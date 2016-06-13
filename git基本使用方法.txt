@@ -16,7 +16,9 @@
    3.6 git pull, 该命令用于拉取远程服务器端的代码 到 本地仓库
    3.7 git checkout "文件名",单独拉取远程服务器端的某个文件 到  本地仓库
 
-212112
+   3.8 第一次本地仓库提交代码
+	git config --global user.email "571323109@qq.com"
+	git config --global user.name "tiaphie"
 
 
 
