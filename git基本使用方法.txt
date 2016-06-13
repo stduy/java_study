@@ -1,0 +1,22 @@
+1.git和github的区别
+  git是一个版本控制工具,可以追溯到已提交的历史版本,它和svn的最大区别是 git支持基于本地代码仓库的版本控制,而svn需要将代码上传至svn服务器才可进行管理.
+  github是一个提供版本控制服务的网站,可以认为是进行代码托管的地方.
+2.安装git还是github来使用 git进行代码管理?
+  github提供了一个可视化化的操作界面(目前有windows版本),方便进行代码管理操作
+  git 提供了一系列命令 进行代码的管理操作
+3.常用的git命令
+   3.1 git clone 仓库地址,该命令用于从远程代码仓库 克隆 到本地仓库
+       如: git clone https://github.com/stduy/java_study.git
+   3.2 git status,该命令用于查看 和 本地仓库中的当前版本 不一致的文件列表
+   3.3 git add 和本地仓库不一致的文件 , 该命令用于将 已修改的文件 上传至暂存区,以便提交
+       如: git add learns java.txt 
+   3.4 git commit -m "修改原因",该命令用于提交 暂存区中的文件 到 本地仓库中 
+       如: git commit -m "2.0版本开发,修复了xxxbug"
+   3.5 git push, 该命令用于将当前本地仓库的代码 推送至 git的远程服务器端
+   3.6 git pull, 该命令用于拉取远程服务器端的代码 到 本地仓库
+   3.7 git checkout "文件名",单独拉取远程服务器端的某个文件 到  本地仓库
+
+
+
+
+  
